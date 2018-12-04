@@ -11,6 +11,10 @@ the simulation and fuzzy inference by constructing Petri nets.
 2018-12-05  New stable version of FCPN is released.
 ## Table of Contents
 - [Background and introduction](#background-and-introduction)
+- [Features](#features)
+- [Manual](#manual)
+- [FAQ](#faq)
+- [Contact us](#contact-us)
 ## Background and introduction
 Petri nets provide a formal and clear representation of systems based on their
 firm mathematical foundation for the analysis of system properties. This software
@@ -40,9 +44,10 @@ in the system, so that the users’ needs are satisfied as much as possible.
   * Highly automated simulation process.
   * Diversified export of simulation results.
   * Custom simulation result drawing.
-
+## Download
+Download [FCPN.rar](https://github.com/wjsunscut/fcpn/raw/master/Examples).
 ## Manual
-Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf).
+Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloads from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
 ## FAQ
 
 ## Contact us
