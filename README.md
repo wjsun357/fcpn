@@ -54,14 +54,18 @@ Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master
 **Q: How does a name in FCPN look like?**
 <br>
 A: At first all names have to be unique in a net. It can contain any of the following elements:
-   * letters a-z and A-Z
-   * numbers 0-9
-   * underscore _
+<br>
+    • letters a-z and A-Z
+    <br>
+    • numbers 0-9
+    <br>
+    • underscore _
 <br>
 A name has to start with a letter or underscore and followed by any combination of all elements above. 
 <br>
 With this we follow the same name convention as most of the programming languages. The uniqueness is needed to surely identify each entity during analysis and simulation.
 <br>
+**************************
 **Q: What means this predefined function MassAction?**
 <br>
 A: MassAction is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
