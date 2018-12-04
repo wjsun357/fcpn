@@ -4,19 +4,20 @@ the simulation and fuzzy inference by constructing Petri nets.
 <br>
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.0.0-blue.svg)
 ![Programming language](https://img.shields.io/badge/Programming%20language-C++-red.svg)
+![Operating system](https://img.shields.io/badge/Operating%20system-Windows-yellow.svg)
 <br>
 *Authors*: Fei Liu, Wujie Sun, Yexuan Sun, Yuchen Zhou, Shijing Zhu, and Zhijie Zhang.
 ## News
 2018-08-31 The first version of FCPN is finished and internally used.<br>
 2018-12-05  New stable version of FCPN is released.
 ## Table of Contents
-- [Background and introduction](#background-and-introduction)
+- [Background and Introduction](#background-and-introduction)
 - [Features](#features)
-- [Download and get started](#download-and-get-started)
+- [Download and Get Started](#download-and-get-started)
 - [Manual](#manual)
 - [FAQ](#faq)
-- [Contact us](#contact-us)
-## Background and introduction
+- [Contact Us](#contact-us)
+## Background and Introduction
 Petri nets provide a formal and clear representation of systems based on their
 firm mathematical foundation for the analysis of system properties. This software
 provides fuzzy continuous Petri nets modeling and simulation functions
@@ -45,11 +46,29 @@ in the system, so that the users’ needs are satisfied as much as possible.
   * Highly automated simulation process.
   * Diversified export of simulation results.
   * Custom simulation result drawing.
-## Download and get started.
+## Download and Get Started.
 Please download the zip file [FCPN.rar](https://github.com/wjsunscut/fcpn/raw/master/Examples). Then unzip it and click the `ptnet.exe` to run the software.
 ## Manual
-Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloads from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
+Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
 ## FAQ
+**Q: How does a name in FCPN look like?**
+<br>
+A: At first all names have to be unique in a net. It can contain any of the following elements:
+   * letters a-z and A-Z
+   * numbers 0-9
+   * underscore _
+<br>
+A name has to start with a letter or underscore and followed by any combination of all elements above. 
+<br>
+With this we follow the same name convention as most of the programming languages. The uniqueness is needed to surely identify each entity during analysis and simulation.
+<br>
+**Q: What means this predefined function MassAction?**
+<br>
+A: MassAction is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
+<br>
+For example, let's assume t1 has two preplaces p1 and p2, and the parameter k is defined. Now you can specify the rate function of t1 to obey mass/action kinetics as k*p1*p2 or MassAction(k).
+<br>
+They compute the same result. MassAction takes care of the structure. If you change the preplaces, the rate function is automatically adapted.
 
 ## Contact us
 FCPN is under active development. If you have any questions, please feel free to contact us.
