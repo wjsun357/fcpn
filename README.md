@@ -55,11 +55,11 @@ Q: How does a name in FCPN look like?
 <br>
 **A: At first all names have to be unique in a net. It can contain any of the following elements:
 <br>
-    • letters a-z and A-Z
-    <br>
-    • numbers 0-9
-    <br>
-    • underscore _
+• letters a-z and A-Z
+<br>
+• numbers 0-9
+<br>
+• underscore _
 <br>
 A name has to start with a letter or underscore and followed by any combination of all elements above. 
 <br>
