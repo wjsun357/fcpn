@@ -12,6 +12,7 @@ the simulation and fuzzy inference by constructing Petri nets.
 ## Table of Contents
 - [Background and introduction](#background-and-introduction)
 - [Features](#features)
+- [Download and get started](#download-and-get-started)
 - [Manual](#manual)
 - [FAQ](#faq)
 - [Contact us](#contact-us)
@@ -44,8 +45,8 @@ in the system, so that the users’ needs are satisfied as much as possible.
   * Highly automated simulation process.
   * Diversified export of simulation results.
   * Custom simulation result drawing.
-## Download
-Download [FCPN.rar](https://github.com/wjsunscut/fcpn/raw/master/Examples).
+## Download and get started.
+Please download the zip file [FCPN.rar](https://github.com/wjsunscut/fcpn/raw/master/Examples). Then unzip it and click the `ptnet.exe` to run the software.
 ## Manual
 Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloads from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
 ## FAQ
