@@ -15,7 +15,7 @@ the simulation and fuzzy inference by constructing Petri nets.
 - [Features](#features)
 - [Download and Get Started](#download-and-get-started)
 - [Manual](#manual)
-- [FAQ](#faq)
+- [FAQs](#faqs)
 - [Contact Us](#contact-us)
 ## Background and Introduction
 Petri nets provide a formal and clear representation of systems based on their
@@ -50,7 +50,7 @@ in the system, so that the users’ needs are satisfied as much as possible.
 Please download the zip file [FCPN.rar](https://github.com/wjsunscut/fcpn/raw/master/Examples). Then unzip it and click the `ptnet.exe` to run the software.
 ## Manual
 Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
-## FAQ
+## FAQs
 Q: How does a name in FCPN look like?
 <br>
 **A: At first all names have to be unique in a net. It can contain any of the following elements:
