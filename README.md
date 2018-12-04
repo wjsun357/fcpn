@@ -53,7 +53,7 @@ Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master
 ## FAQ
 **Q: How does a name in FCPN look like?**
 <br>
-A: At first all names have to be unique in a net. It can contain any of the following elements:
+_A: At first all names have to be unique in a net. It can contain any of the following elements:
 <br>
     • letters a-z and A-Z
     <br>
@@ -63,16 +63,16 @@ A: At first all names have to be unique in a net. It can contain any of the foll
 <br>
 A name has to start with a letter or underscore and followed by any combination of all elements above. 
 <br>
-With this we follow the same name convention as most of the programming languages. The uniqueness is needed to surely identify each entity during analysis and simulation.
+With this we follow the same name convention as most of the programming languages. The uniqueness is needed to surely identify each entity during analysis and simulation._
 <br>
 **************************
 **Q: What means this predefined function MassAction?**
 <br>
-A: MassAction is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
+_A: MassAction is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
 <br>
-For example, let's assume t1 has two preplaces p1 and p2, and the parameter k is defined. Now you can specify the rate function of t1 to obey mass/action kinetics as k*p1*p2 or MassAction(k).
+For example, let's assume t1 has two preplaces p1 and p2, and the parameter k is defined. Now you can specify the rate function of t1 to obey mass/action kinetics as k\*p1\*p2 or MassAction(k).
 <br>
-They compute the same result. MassAction takes care of the structure. If you change the preplaces, the rate function is automatically adapted.
+They compute the same result. MassAction takes care of the structure. If you change the preplaces, the rate function is automatically adapted._
 
 ## Contact us
 FCPN is under active development. If you have any questions, please feel free to contact us.
