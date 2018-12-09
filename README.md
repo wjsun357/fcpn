@@ -61,18 +61,16 @@ Q: How does a name in FCPN look like?
 <br>
 • underscore _
 <br>
-A name has to start with a letter or underscore and followed by any combination of all elements above. 
-<br>
-With this we follow the same name convention as most of the programming languages. The uniqueness is needed to surely identify each entity during analysis and simulation.**
+The name has to start with a letter or underscore and followed by any combination of all elements above. Otherwise compiler errors might occur.**
 <br>
 **************************
-Q: What means this predefined function MassAction?
+Q: What does the function MassAction() mean?
 <br>
-**A: MassAction is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
+**A: MassAction() is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
 <br>
-For example, let's assume t1 has two preplaces p1 and p2, and the parameter k is defined. Now you can specify the rate function of t1 to obey mass/action kinetics as k\*p1\*p2 or MassAction(k).
+For example, assume that t0 has two preplaces p0 and p1, and the parameter k is defined. Now you can specify the rate function of t0 to obey mass/action kinetics as k\*p0\*p1 or MassAction(k).
 <br>
-They compute the same result. MassAction takes care of the structure. If you change the preplaces, the rate function is automatically adapted.**
+The results are same. MassAction() takes care of the structure. If you change the preplaces, the rate function is automatically adapted.**
 
 ## Contact us
 FCPN is under active development. If you have any questions, please feel free to contact us.
