@@ -47,7 +47,8 @@ in the system, so that the users’ needs are satisfied as much as possible.
   * Diversified export of simulation results.
   * Custom simulation result drawing.
 ## Download and Get Started.
-Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/Examples). Then unzip it and click the `ptnet.exe` to run the software.
+Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/FCPN.zip). Then unzip it and click the `FCPN.exe` to run the software.
+Or you can choose to download [Setup.exe](https://github.com/wjsunscut/fcpn/raw/master/Setup.exe) and install it. Run `FCPN.exe` after installation.
 ## Manual
 Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
 ## FAQs
