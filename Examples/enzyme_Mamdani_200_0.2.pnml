@@ -8,39 +8,18 @@
             <name>
                 <text>enzyme_Mamdani_200_0.2</text>
             </name>
-            <place id="p2">
-                <name>
-                    <text>Substrate_Enzyme_Complex</text>
-                    <graphics>
-                        <offset x="30" y="30"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <placeCapacity capacity="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2209" y="2610"/>
-                </graphics>
-                <initialMarking>
-                    <text>0</text>
-                </initialMarking>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </place>
             <place id="p0">
                 <name>
                     <text>Substrate</text>
                     <graphics>
-                        <offset x="30" y="30"/>
+                        <offset x="44" y="3"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2022" y="2300"/>
+                    <position x="185" y="172"/>
                 </graphics>
                 <initialMarking>
                     <text>100</text>
@@ -50,21 +29,21 @@
                     <show>N</show>
                 </comment>
             </place>
-            <place id="p1">
+            <place id="p2">
                 <name>
-                    <text>Enzyme</text>
+                    <text>Substrate_Enzyme_Complex</text>
                     <graphics>
-                        <offset x="30" y="30"/>
+                        <offset x="-99" y="-16"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2357" y="2290"/>
+                    <position x="282" y="296"/>
                 </graphics>
                 <initialMarking>
-                    <text>10</text>
+                    <text>0</text>
                 </initialMarking>
                 <comment>
                     <text></text>
@@ -75,14 +54,14 @@
                 <name>
                     <text>Product</text>
                     <graphics>
-                        <offset x="30" y="30"/>
+                        <offset x="-9" y="32"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2003" y="2796"/>
+                    <position x="197" y="370"/>
                 </graphics>
                 <initialMarking>
                     <text>0</text>
@@ -92,6 +71,48 @@
                     <show>N</show>
                 </comment>
             </place>
+            <place id="p1">
+                <name>
+                    <text>Enzyme</text>
+                    <graphics>
+                        <offset x="30" y="7"/>
+                    </graphics>
+                </name>
+                <toolspecific tool="petrinet" version="1.0">
+                    <placeCapacity capacity="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="363" y="173"/>
+                </graphics>
+                <initialMarking>
+                    <text>10</text>
+                </initialMarking>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </place>
+            <transition id="t1">
+                <name>
+                    <text>Association</text>
+                    <graphics>
+                        <offset x="34" y="15"/>
+                    </graphics>
+                </name>
+                <toolspecific tool="petrinet" version="1.0">
+                    <rotation degree="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="109" y="296"/>
+                </graphics>
+                <function>
+                    <text>MassAction(0.1)</text>
+                </function>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </transition>
             <transition id="t2">
                 <name>
                     <text>Dissociation</text>
@@ -103,7 +124,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2370" y="2484"/>
+                    <position x="460" y="299"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.1)</text>
@@ -117,14 +138,14 @@
                 <name>
                     <text>Synthesis</text>
                     <graphics>
-                        <offset x="30" y="10"/>
+                        <offset x="34" y="9"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2237" y="2803"/>
+                    <position x="366" y="369"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.1)</text>
@@ -134,27 +155,118 @@
                     <show>N</show>
                 </comment>
             </transition>
-            <transition id="t1">
-                <name>
-                    <text>Assoication</text>
-                    <graphics>
-                        <offset x="30" y="10"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <rotation degree="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2032" y="2485"/>
-                </graphics>
-                <function>
-                    <text>MassAction(0.1)</text>
-                </function>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </transition>
+            <arc id="a3" source="t2" target="p1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a2" source="t2" target="p0">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a8" source="p2" target="t0">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>nan</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a1" source="p1" target="t1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a0" source="p0" target="t1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a6" source="p2" target="t2">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a5" source="t1" target="p2">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a4" source="t0" target="p1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
             <arc id="a7" source="t0" target="p3">
                 <inscription>
                     <text>1</text>
@@ -261,118 +373,6 @@
                             <int>2</int>
                         </row>
                     </Rules>
-                </fis>
-            </arc>
-            <arc id="a6" source="p2" target="t2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a3" source="t2" target="p1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a0" source="p0" target="t1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a1" source="p1" target="t1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a4" source="t0" target="p1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a5" source="t1" target="p2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a2" source="t2" target="p0">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a8" source="p2" target="t0">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>nan</TimeStep>
                 </fis>
             </arc>
         </page>

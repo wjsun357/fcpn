@@ -1,28 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pnml>
-    <net id="enzyme_ODE_200_0.2" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <net id="enzyme_T-S_200_0.2" type="http://www.pnml.org/version-2009/grammar/ptnet">
         <name>
-            <text>enzyme_ODE_200_0.2</text>
+            <text>enzyme_T-S_200_0.2</text>
         </name>
         <page id="page0">
             <name>
-                <text>enzyme_ODE_200_0.2</text>
+                <text>enzyme_T-S_200_0.2</text>
             </name>
             <place id="p0">
                 <name>
                     <text>Substrate</text>
                     <graphics>
-                        <offset x="31" y="-3"/>
+                        <offset x="30" y="30"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2029" y="2384"/>
+                    <position x="2022" y="2300"/>
                 </graphics>
                 <initialMarking>
                     <text>100</text>
+                </initialMarking>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </place>
+            <place id="p1">
+                <name>
+                    <text>Enzyme</text>
+                    <graphics>
+                        <offset x="30" y="30"/>
+                    </graphics>
+                </name>
+                <toolspecific tool="petrinet" version="1.0">
+                    <placeCapacity capacity="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="2357" y="2290"/>
+                </graphics>
+                <initialMarking>
+                    <text>10</text>
                 </initialMarking>
                 <comment>
                     <text></text>
@@ -40,31 +61,10 @@
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2058" y="2542"/>
+                    <position x="2003" y="2796"/>
                 </graphics>
                 <initialMarking>
                     <text>0</text>
-                </initialMarking>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </place>
-            <place id="p1">
-                <name>
-                    <text>Enzyme</text>
-                    <graphics>
-                        <offset x="33" y="4"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <placeCapacity capacity="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2208" y="2380"/>
-                </graphics>
-                <initialMarking>
-                    <text>10</text>
                 </initialMarking>
                 <comment>
                     <text></text>
@@ -75,14 +75,14 @@
                 <name>
                     <text>Substrate_Enzyme_Complex</text>
                     <graphics>
-                        <offset x="-101" y="-17"/>
+                        <offset x="30" y="30"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2123" y="2483"/>
+                    <position x="2209" y="2610"/>
                 </graphics>
                 <initialMarking>
                     <text>0</text>
@@ -103,7 +103,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2210" y="2542"/>
+                    <position x="2237" y="2803"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.1)</text>
@@ -124,7 +124,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="1915" y="2483"/>
+                    <position x="2032" y="2485"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.1)</text>
@@ -145,7 +145,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="2331" y="2483"/>
+                    <position x="2370" y="2484"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.1)</text>
@@ -155,63 +155,7 @@
                     <show>N</show>
                 </comment>
             </transition>
-            <arc id="a2" source="t2" target="p0">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
             <arc id="a4" source="t0" target="p1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a6" source="p2" target="t2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a5" source="t1" target="p2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a3" source="t2" target="p1">
                 <inscription>
                     <text>1</text>
                 </inscription>
@@ -239,7 +183,7 @@
                     <TimeStep>0</TimeStep>
                 </fis>
             </arc>
-            <arc id="a7" source="t0" target="p3">
+            <arc id="a6" source="p2" target="t2">
                 <inscription>
                     <text>1</text>
                 </inscription>
@@ -253,7 +197,21 @@
                     <TimeStep>0</TimeStep>
                 </fis>
             </arc>
-            <arc id="a1" source="p1" target="t1">
+            <arc id="a3" source="t2" target="p1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a2" source="t2" target="p0">
                 <inscription>
                     <text>1</text>
                 </inscription>
@@ -279,6 +237,142 @@
                     <FISType></FISType>
                     <Deffuzification></Deffuzification>
                     <TimeStep>nan</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a7" source="t0" target="p3">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>FIS(Substrate_Enzyme_Complex;Product)</text>
+                </expression>
+                <fis>
+                    <FISName>FIS(Substrate_Enzyme_Complex;Product)</FISName>
+                    <FISType>T-S</FISType>
+                    <Deffuzification>centroid</Deffuzification>
+                    <TimeStep>0.2</TimeStep>
+                    <VariableName>
+                        <string>Substrate_Enzyme_Complex</string>
+                        <string>Product</string>
+                    </VariableName>
+                    <RangeMin>
+                        <double>0</double>
+                        <double>0</double>
+                    </RangeMin>
+                    <RangeMax>
+                        <double>10</double>
+                        <double>0</double>
+                    </RangeMax>
+                    <InputOrOutput>
+                        <int>0</int>
+                        <int>1</int>
+                    </InputOrOutput>
+                    <LinguisticName>
+                        <row>
+                            <string>Low</string>
+                            <string>Medium</string>
+                            <string>High</string>
+                        </row>
+                        <row>
+                            <string>0.023*Substrate_Enzyme_Complex</string>
+                            <string>0.019*Substrate_Enzyme_Complex</string>
+                            <string>0.02*Substrate_Enzyme_Complex</string>
+                        </row>
+                    </LinguisticName>
+                    <LinguisticType>
+                        <row>
+                            <int>0</int>
+                            <int>0</int>
+                            <int>0</int>
+                        </row>
+                        <row>
+                            <int>0</int>
+                            <int>1</int>
+                            <int>2</int>
+                        </row>
+                    </LinguisticType>
+                    <Para1>
+                        <row>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>5</double>
+                        </row>
+                        <row>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </row>
+                    </Para1>
+                    <Para2>
+                        <row>
+                            <double>0</double>
+                            <double>5</double>
+                            <double>10</double>
+                        </row>
+                        <row>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </row>
+                    </Para2>
+                    <Para3>
+                        <row>
+                            <double>5</double>
+                            <double>10</double>
+                            <double>10</double>
+                        </row>
+                        <row>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </row>
+                    </Para3>
+                    <NewSortedVariables>
+                        <int>0</int>
+                        <int>1</int>
+                    </NewSortedVariables>
+                    <Rules>
+                        <row>
+                            <int>0</int>
+                            <int>0</int>
+                        </row>
+                        <row>
+                            <int>1</int>
+                            <int>1</int>
+                        </row>
+                        <row>
+                            <int>2</int>
+                            <int>2</int>
+                        </row>
+                    </Rules>
+                </fis>
+            </arc>
+            <arc id="a1" source="p1" target="t1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a5" source="t1" target="p2">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
                 </fis>
             </arc>
         </page>
