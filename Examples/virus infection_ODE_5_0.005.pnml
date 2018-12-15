@@ -10,40 +10,19 @@
             </name>
             <place id="p2">
                 <name>
-                    <text>Uninfected_cel</text>
+                    <text>Uninfected_cells</text>
                     <graphics>
-                        <offset x="30" y="30"/>
+                        <offset x="30" y="8"/>
                     </graphics>
                 </name>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="1410" y="2380"/>
+                    <position x="1417" y="2380"/>
                 </graphics>
                 <initialMarking>
                     <text>100</text>
-                </initialMarking>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </place>
-            <place id="p4">
-                <name>
-                    <text>Infected_cells</text>
-                    <graphics>
-                        <offset x="30" y="30"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <placeCapacity capacity="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="1648" y="2681"/>
-                </graphics>
-                <initialMarking>
-                    <text>0</text>
                 </initialMarking>
                 <comment>
                     <text></text>
@@ -65,6 +44,27 @@
                 </graphics>
                 <initialMarking>
                     <text>1</text>
+                </initialMarking>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </place>
+            <place id="p4">
+                <name>
+                    <text>Infected_cells</text>
+                    <graphics>
+                        <offset x="30" y="30"/>
+                    </graphics>
+                </name>
+                <toolspecific tool="petrinet" version="1.0">
+                    <placeCapacity capacity="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="1650" y="2676"/>
+                </graphics>
+                <initialMarking>
+                    <text>0</text>
                 </initialMarking>
                 <comment>
                     <text></text>
@@ -103,7 +103,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="1666" y="2822"/>
+                    <position x="1651" y="2822"/>
                 </graphics>
                 <function>
                     <text>MassAction(0.5)</text>
@@ -124,31 +124,10 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="1909" y="2677"/>
+                    <position x="1837" y="2674"/>
                 </graphics>
                 <function>
                     <text>MassAction(1)</text>
-                </function>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </transition>
-            <transition id="t4">
-                <name>
-                    <text>Degradation</text>
-                    <graphics>
-                        <offset x="30" y="10"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <rotation degree="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="1833" y="2238"/>
-                </graphics>
-                <function>
-                    <text>MassAction(0.1)</text>
                 </function>
                 <comment>
                     <text></text>
@@ -166,7 +145,7 @@
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
-                    <position x="1409" y="2537"/>
+                    <position x="1421" y="2537"/>
                 </graphics>
                 <function>
                     <text>MassAction(1)</text>
@@ -197,49 +176,28 @@
                     <show>N</show>
                 </comment>
             </transition>
-            <arc id="a15" source="t6" target="p4">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a16" source="p4" target="t8">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a13" source="t7" target="p3">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>10</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a11" source="p3" target="t6">
+            <transition id="t4">
+                <name>
+                    <text>Degradation</text>
+                    <graphics>
+                        <offset x="30" y="10"/>
+                    </graphics>
+                </name>
+                <toolspecific tool="petrinet" version="1.0">
+                    <rotation degree="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="1833" y="2238"/>
+                </graphics>
+                <function>
+                    <text>MassAction(0.1)</text>
+                </function>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </transition>
+            <arc id="a9" source="t5" target="p2">
                 <inscription>
                     <text>1</text>
                 </inscription>
@@ -267,7 +225,63 @@
                     <TimeStep>0</TimeStep>
                 </fis>
             </arc>
+            <arc id="a16" source="p4" target="t8">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a11" source="p3" target="t6">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a13" source="t7" target="p3">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>10</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
             <arc id="a12" source="p3" target="t4">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a10" source="p2" target="t6">
                 <inscription>
                     <text>1</text>
                 </inscription>
@@ -295,21 +309,7 @@
                     <TimeStep>5.758871540913362e-193</TimeStep>
                 </fis>
             </arc>
-            <arc id="a9" source="t5" target="p2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a10" source="p2" target="t6">
+            <arc id="a15" source="t6" target="p4">
                 <inscription>
                     <text>1</text>
                 </inscription>
