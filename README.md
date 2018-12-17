@@ -1,6 +1,5 @@
 # FCPN
-*FCPN* stands for "*Fuzzy Continuous Petri Nets*". The purpose of FCPN is to provide users with services to complete
-the simulation and fuzzy inference by constructing Petri nets.
+*FCPN* stands for "*Fuzzy Continuous Petri Nets*". The purpose of FCPN is to offer functions for modeling FCPN models and simulating them.
 <br>
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.0.0-blue.svg)
 ![Programming language](https://img.shields.io/badge/Programming%20language-C++-red.svg)
