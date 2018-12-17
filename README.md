@@ -1,4 +1,4 @@
-# FCPN
+# FCPN tool
 *FCPN* stands for "*Fuzzy Continuous Petri Nets*". The purpose of FCPN is to offer functions for modeling FCPN models and simulating them.
 <br>
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.0.0-blue.svg)
@@ -17,34 +17,25 @@
 - [FAQs](#faqs)
 - [Contact Us](#contact-us)
 ## Background and Introduction
-Petri nets provide a formal and clear representation of systems based on their
+Petri nets provide a formal and graphical representation of systems based on their
 firm mathematical foundation for the analysis of system properties. This software
-provides fuzzy continuous Petri nets modeling and simulation functions
+provides fuzzy continuous Petri net modeling and simulation functions
 for researchers in the field of systems biology.
 <br>
-The purpose of this system is to provide users with services to complete
-the simulation and fuzzy inference by constructing Petri nets. This software
-includes three main functions: continuous Petri nets modeling, fuzzy modeling,
-and hybrid simulation. Among them, the simulation is based on the transition
-and fire of the Petri model input by the user, and the simulation results are
-given.
-<br>
-In order to improve the user experience, we simplify the modeling page to
-give users a more intuitive sense of use without affecting the function during the
-design process. At the same time, the simulation and fuzzification are integrated
-in the system, so that the users’ needs are satisfied as much as possible.
+This software includes three main functions: continuous Petri nets modeling, fuzzy modeling,
+and hybrid simulation. 
 ## Features
 * Features for modeling
   * Concise and efficient interface design.
-  * Drawing of the Petri net graph as usual.
-  * Flexible user-defined functions.
-  * Multiple fuzzy logic choices.
-  * Simple and fast fuzzy logic settings.
-  * Rich shortcut settings, such as undo, redo, save, print, etc.
+	* Drawing of the Petri net graph as usual.
+	* Flexible user-defined functions.
+	* Multiple fuzzy logic choices.
+	* Simple and fast fuzzy logic settings.
+	* Rich shortcut settings, such as undo, redo, save, print, etc.
 * Features for simulation
   * Highly automated simulation process.
-  * Diversified export of simulation results.
-  * Custom simulation result drawing.
+	 * Diversified export of simulation results.
+	 * Custom simulation result drawing.
 ## Download and Get Started.
 Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/FCPN.zip). Then unzip it and click the `FCPN.exe` to run the software.
 <br>
