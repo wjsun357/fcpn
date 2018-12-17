@@ -37,6 +37,9 @@ and hybrid simulation.
 	 * Diversified export of simulation results.
 	 * Custom simulation result drawing.
 ## Download and Get Started.
+Operating environment：
+The software is developed with C++ and QT in the windows operational systems. Currently, we only offer the windows verion, but we are also devoting to offer the linux version and Mac versions as soon as possible.
+<br>
 Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/FCPN.zip). Then unzip it and click the `FCPN.exe` to run the software.
 <br>
 Or you can choose to download [Install_FCPN.exe](https://github.com/wjsunscut/fcpn/raw/master/Install_FCPN.exe) and install it. Run `FCPN.exe` after installation.
