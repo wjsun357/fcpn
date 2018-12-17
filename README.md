@@ -77,6 +77,6 @@ The results are same. MassAction() takes care of the structure. If you change th
 ## Contact us
 FCPN is under active development. If you have any questions, please feel free to contact us.
 <br>
-**Email**: `wjsunscut@163.com`
+**Email**: `feiliu@scut.edu.cn`
 <br>
 **Address**: `University Town Campus of South China University of Technology, Guangzhou, Guangdong, China`
