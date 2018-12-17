@@ -49,9 +49,9 @@ in the system, so that the users’ needs are satisfied as much as possible.
 ## Download and Get Started.
 Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/FCPN.zip). Then unzip it and click the `FCPN.exe` to run the software.
 <br>
-Or you can choose to download [Setup.exe](https://github.com/wjsunscut/fcpn/raw/master/Setup.exe) and install it. Run `FCPN.exe` after installation.
+Or you can choose to download [Install_FCPN.exe](https://github.com/wjsunscut/fcpn/raw/master/Install_FCPN.exe) and install it. Run `FCPN.exe` after installation.
 ## Manual
-Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples](https://github.com/wjsunscut/fcpn/raw/master/Examples).
+Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples.zip](https://github.com/wjsunscut/fcpn/raw/master/Examples/Examples.zip).
 ## FAQs
 Q: How does a name in FCPN look like?
 <br>
