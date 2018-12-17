@@ -8,27 +8,6 @@
             <name>
                 <text>1D diffusion reaction_Hybrid_10_0.1</text>
             </name>
-            <place id="p4">
-                <name>
-                    <text>S_5</text>
-                    <graphics>
-                        <offset x="30" y="30"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <placeCapacity capacity="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2459" y="2402"/>
-                </graphics>
-                <initialMarking>
-                    <text>0</text>
-                </initialMarking>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </place>
             <place id="p2">
                 <name>
                     <text>S_3</text>
@@ -36,6 +15,10 @@
                         <offset x="30" y="30"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
@@ -50,6 +33,31 @@
                     <show>N</show>
                 </comment>
             </place>
+            <place id="p4">
+                <name>
+                    <text>S_5</text>
+                    <graphics>
+                        <offset x="30" y="30"/>
+                    </graphics>
+                </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <toolspecific tool="petrinet" version="1.0">
+                    <placeCapacity capacity="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="2459" y="2402"/>
+                </graphics>
+                <initialMarking>
+                    <text>0</text>
+                </initialMarking>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </place>
             <place id="p1">
                 <name>
                     <text>S_2</text>
@@ -57,6 +65,10 @@
                         <offset x="30" y="30"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
@@ -78,6 +90,10 @@
                         <offset x="30" y="30"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
@@ -99,6 +115,10 @@
                         <offset x="30" y="30"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <placeCapacity capacity="0"/>
                 </toolspecific>
@@ -113,6 +133,31 @@
                     <show>N</show>
                 </comment>
             </place>
+            <transition id="t3">
+                <name>
+                    <text>t_2_3</text>
+                    <graphics>
+                        <offset x="30" y="10"/>
+                    </graphics>
+                </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <toolspecific tool="petrinet" version="1.0">
+                    <rotation degree="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="2046" y="2494"/>
+                </graphics>
+                <function>
+                    <text>MassAction(1)</text>
+                </function>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </transition>
             <transition id="t5">
                 <name>
                     <text>t_3_4</text>
@@ -120,6 +165,10 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
@@ -141,11 +190,40 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
                     <position x="2377" y="2496"/>
+                </graphics>
+                <function>
+                    <text>MassAction(1)</text>
+                </function>
+                <comment>
+                    <text></text>
+                    <show>N</show>
+                </comment>
+            </transition>
+            <transition id="t4">
+                <name>
+                    <text>t_4_3</text>
+                    <graphics>
+                        <offset x="30" y="10"/>
+                    </graphics>
+                </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <toolspecific tool="petrinet" version="1.0">
+                    <rotation degree="0"/>
+                </toolspecific>
+                <graphics>
+                    <position x="2215" y="2343"/>
                 </graphics>
                 <function>
                     <text>MassAction(1)</text>
@@ -162,6 +240,10 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
@@ -183,32 +265,15 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
                 <graphics>
                     <position x="1879" y="2347"/>
-                </graphics>
-                <function>
-                    <text>MassAction(1)</text>
-                </function>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </transition>
-            <transition id="t4">
-                <name>
-                    <text>t_4_3</text>
-                    <graphics>
-                        <offset x="30" y="10"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <rotation degree="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2215" y="2343"/>
                 </graphics>
                 <function>
                     <text>MassAction(1)</text>
@@ -225,6 +290,10 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
@@ -246,6 +315,10 @@
                         <offset x="30" y="10"/>
                     </graphics>
                 </name>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <toolspecific tool="petrinet" version="1.0">
                     <rotation degree="0"/>
                 </toolspecific>
@@ -260,34 +333,35 @@
                     <show>N</show>
                 </comment>
             </transition>
-            <transition id="t3">
-                <name>
-                    <text>t_2_3</text>
-                    <graphics>
-                        <offset x="30" y="10"/>
-                    </graphics>
-                </name>
-                <toolspecific tool="petrinet" version="1.0">
-                    <rotation degree="0"/>
-                </toolspecific>
-                <graphics>
-                    <position x="2046" y="2494"/>
-                </graphics>
-                <function>
-                    <text>MassAction(1)</text>
-                </function>
-                <comment>
-                    <text></text>
-                    <show>N</show>
-                </comment>
-            </transition>
-            <arc id="a0" source="p0" target="t1">
+            <arc id="a8" source="p2" target="t5">
                 <inscription>
                     <text>1</text>
                 </inscription>
                 <expression>
                     <text>1</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a16" source="p3" target="t6">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
@@ -302,6 +376,10 @@
                 <expression>
                     <text>1</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
@@ -309,13 +387,35 @@
                     <TimeStep>0</TimeStep>
                 </fis>
             </arc>
-            <arc id="a5" source="t3" target="p2">
+            <arc id="a4" source="p1" target="t3">
                 <inscription>
                     <text>1</text>
                 </inscription>
                 <expression>
                     <text>1</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a7" source="t2" target="p1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
@@ -330,6 +430,10 @@
                 <expression>
                     <text>FIS(S_4;S_5)</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="255" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName>FIS(S_4;S_5)</FISName>
                     <FISType>T-S</FISType>
@@ -431,13 +535,17 @@
                     </Rules>
                 </fis>
             </arc>
-            <arc id="a8" source="p2" target="t5">
+            <arc id="a0" source="p0" target="t1">
                 <inscription>
                     <text>1</text>
                 </inscription>
                 <expression>
                     <text>1</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
@@ -445,55 +553,17 @@
                     <TimeStep>0</TimeStep>
                 </fis>
             </arc>
-            <arc id="a16" source="p3" target="t6">
+            <arc id="a5" source="t3" target="p2">
                 <inscription>
                     <text>1</text>
                 </inscription>
                 <expression>
                     <text>1</text>
                 </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a7" source="t2" target="p1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a4" source="p1" target="t3">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a2" source="p1" target="t0">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
@@ -508,81 +578,15 @@
                 <expression>
                     <text>1</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName></FISName>
                     <FISType></FISType>
                     <Deffuzification></Deffuzification>
                     <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a10" source="p3" target="t4">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>1.0569678019312566e-307</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a11" source="t4" target="p2">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a1" source="t1" target="p1">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a3" source="t0" target="p0">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>0</TimeStep>
-                </fis>
-            </arc>
-            <arc id="a9" source="t5" target="p3">
-                <inscription>
-                    <text>1</text>
-                </inscription>
-                <expression>
-                    <text>1</text>
-                </expression>
-                <fis>
-                    <FISName></FISName>
-                    <FISType></FISType>
-                    <Deffuzification></Deffuzification>
-                    <TimeStep>1.335102882822791e-307</TimeStep>
                 </fis>
             </arc>
             <arc id="a19" source="t7" target="p3">
@@ -592,6 +596,10 @@
                 <expression>
                     <text>FIS(S_5;S_4)</text>
                 </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="255" green="0" blue="0"/>
+                </color>
                 <fis>
                     <FISName>FIS(S_5;S_4)</FISName>
                     <FISType>Mamdani</FISType>
@@ -691,6 +699,114 @@
                             <int>2</int>
                         </row>
                     </Rules>
+                </fis>
+            </arc>
+            <arc id="a2" source="p1" target="t0">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a9" source="t5" target="p3">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>1.335102882822791e-307</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a11" source="t4" target="p2">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a10" source="p3" target="t4">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>1.0569678019312566e-307</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a3" source="t0" target="p0">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
+                </fis>
+            </arc>
+            <arc id="a1" source="t1" target="p1">
+                <inscription>
+                    <text>1</text>
+                </inscription>
+                <expression>
+                    <text>1</text>
+                </expression>
+                <color>
+                    <brush red="255" green="255" blue="255"/>
+                    <pen red="0" green="0" blue="0"/>
+                </color>
+                <fis>
+                    <FISName></FISName>
+                    <FISType></FISType>
+                    <Deffuzification></Deffuzification>
+                    <TimeStep>0</TimeStep>
                 </fis>
             </arc>
         </page>
