@@ -43,7 +43,7 @@ Or you can choose to download [Install_FCPN.exe](https://github.com/wjsunscut/fc
 ## Manual
 Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples.zip](https://github.com/wjsunscut/fcpn/raw/master/Examples/Examples.zip).
 ## FAQs
-Q: How does a name in FCPN look like?
+Q: How does a node name in FCPN look like?
 <br>
 **A: At first all names have to be unique in a net. It can contain any of the following elements:
 <br>
@@ -53,16 +53,16 @@ Q: How does a name in FCPN look like?
 <br>
 • underscore _
 <br>
-The name has to start with a letter or underscore and followed by any combination of all elements above. Otherwise compiler errors might occur.**
+The name has to start with a letter or underscore and followed by any combination of all symbols above. Otherwise compiler errors might occur.**
 <br>
 **************************
 Q: What does the function MassAction() mean?
 <br>
-**A: MassAction() is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument.
+**A: MassAction() is a macro that creates the rate function for a transition out of its preplaces and takes a parameter as argument, which represents a mass action law.
 <br>
-For example, assume that t0 has two preplaces p0 and p1, and the parameter k is defined. Now you can specify the rate function of t0 to obey mass/action kinetics as k\*p0\*p1 or MassAction(k).
+For example, assume that t0 has two preplaces p0 and p1, and the parameter k is defined. Now you can specify the rate function of t0 to obey mass action kinetics as k\*p0\*p1 or MassAction(k).
 <br>
-The results are same. MassAction() takes care of the structure. If you change the preplaces, the rate function is automatically adapted.**
+The results are the same. MassAction() takes care of the structure. If you change the preplaces, the rate function is automatically adapted.**
 
 ## Contact us
 FCPN is under active development. If you have any questions, please feel free to contact us.
