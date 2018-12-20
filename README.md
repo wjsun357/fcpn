@@ -27,15 +27,15 @@ and hybrid simulation.
 ## Features
 * Features for modeling
   * Concise and efficient interface design.
-   * Drawing of the Petri net graph as usual.
-   * Flexible user-defined functions.
-   * Multiple fuzzy logic choices.
-   * Simple and fast fuzzy logic settings.
-   * Rich shortcut settings, such as undo, redo, save, print, etc.
+        * Drawing of the Petri net graph as usual.
+        * Flexible user-defined functions.
+        * Multiple fuzzy logic choices.
+        * Simple and fast fuzzy logic settings.
+        * Rich shortcut settings, such as undo, redo, save, print, etc.
 * Features for simulation
   * Highly automated simulation process.
-   * Diversified export of simulation results.
-   * Custom simulation result drawing.
+        * Diversified export of simulation results.
+        * Custom simulation result drawing.
 ## Download and Get Started.
 ** Operating environment：
 <br>
