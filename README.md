@@ -9,7 +9,7 @@
 ## News
 2018-08-31 The first version of FCPN is finished and internally used.<br>
 2018-12-05 New stable version of FCPN is released.<br>
-2018-12-22 A beta version that supports Linux is released.
+2018-12-22 Linux beta version of FCPN is released.
 ## Table of Contents
 - [Background and Introduction](#background-and-introduction)
 - [Features](#features)
