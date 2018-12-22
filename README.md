@@ -54,8 +54,8 @@ Or you can choose to download [Install_FCPN.exe](https://github.com/wjsunscut/fc
 <br>
 Please download the zip file [FCPN_Linux.tar](https://github.com/wjsunscut/fcpn/raw/master/FCPN_Linux.tar). Then unzip it.
 <br>
-Run `chmod +x test.sh
-./test.sh` to use the software.
+Run `chmod +x test.sh`
+`./test.sh` to use the software.
 ## Manual
 Manual can be found at [Manual.pdf](https://github.com/wjsunscut/fcpn/raw/master/Manual.pdf). The examples in the manual can be downloaded from [Examples.zip](https://github.com/wjsunscut/fcpn/raw/master/Examples/Examples.zip).
 ## FAQs
