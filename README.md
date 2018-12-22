@@ -8,7 +8,7 @@
 *Authors*: Fei Liu, Wujie Sun, Yexuan Sun, Yuchen Zhou, Shijing Zhu, and Zhijie Zhang.
 ## News
 2018-08-31 The first version of FCPN is finished and internally used.<br>
-2018-12-05 New stable version of FCPN is released.
+2018-12-05 New stable version of FCPN is released.<br>
 2018-12-22 A beta version that supports Linux is released.
 ## Table of Contents
 - [Background and Introduction](#background-and-introduction)
@@ -44,13 +44,14 @@ The software is developed with C++ and QT in the windows operational systems. Cu
 <br>
 ** Download 
 <br>
-* Windows
+*** Windows
 <br>
 Please download the zip file [FCPN.zip](https://github.com/wjsunscut/fcpn/raw/master/FCPN.zip). Then unzip it and click the `FCPN.exe` to run the software.
 <br>
 Or you can choose to download [Install_FCPN.exe](https://github.com/wjsunscut/fcpn/raw/master/Install_FCPN.exe) and install it. Run `FCPN.exe` after installation.
 <br>
-* Linux
+*** Linux
+<br>
 Please download the zip file [FCPN_Linux.tar](https://github.com/wjsunscut/fcpn/raw/master/FCPN_Linux.tar). Then unzip it.
 <br>
 Run `chmod +x test.sh
