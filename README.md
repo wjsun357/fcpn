@@ -3,7 +3,7 @@
 <br>
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.0.0-blue.svg)
 ![Programming language](https://img.shields.io/badge/Programming%20language-C++-red.svg)
-![Operating system](https://img.shields.io/badge/Operating%20system-Windows Linux-yellow.svg)
+![Operating system](https://img.shields.io/badge/Operating%20system-Windows_Linux-yellow.svg)
 <br>
 *Authors*: Fei Liu, Wujie Sun, Yexuan Sun, Yuchen Zhou, Shijing Zhu, and Zhijie Zhang.
 ## News
